@@ -9,5 +9,5 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["sofle_left","sofle_right"]'
+      shield: '["sofle_left nice_view_adapter nice_view","sofle_right"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_EC11=y\nCONFIG_EC11_TRIGGER_GLOBAL_THREAD=y\nCONFIG_ZMK_HOLD_TAP_DEFAULT_FLAVOR=tap-preferred"]'
